@@ -1,0 +1,522 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'JetBrains Mono', sans-serif;
+
+    list-style-type: none;
+    text-decoration: none;
+
+    color: #fffefe;
+}
+
+body {
+    display: flex;
+    background: rgb(26,28,41);
+    margin-right: 10%;
+}
+#sideblock {
+    width: 10%;
+}
+#sideblock .contacts {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.contacts a {
+    margin: 1rem;
+}
+#contentblock {
+    width: 90%;
+}
+#header {
+    height: 8vh;
+}
+#header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.nav-list {
+    display: flex;
+}
+.nav-list li {
+    margin: 1rem;
+    font-size: 0.8rem;
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+}
+.search .shopbtn {
+    padding: 0.5rem;
+    background: #2a3246;
+    border-radius: 50%;
+    margin: 0rem 0.5rem;
+}
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    background: #2a3246;
+    border-radius: .5rem;
+    margin: 0rem 0.5rem;
+}
+.searchbar input {
+    outline: none;
+    border: none;
+    background: #2a3246;
+    padding: 0.5rem 1rem;
+    border-radius: .5rem;
+    width: 7rem;
+}
+.searchbar i {
+    padding: 0.5rem 1rem;
+}
+.signupbtn {
+    background: #2c8feb;
+    padding: 0.5rem 1rem;
+    border-radius: .5rem;
+    margin: 0rem 0.5rem;
+    font-weight: bolder;
+}
+/* HERO  */
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    height: 90vh;
+}
+
+.herocontent {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 2.5rem;
+}
+.herocontent h1 {
+    font-size: 3rem;
+    text-align: justify;
+}
+.herocontent p {
+  text-align: justify;
+}
+.herocontent a {
+    background: #2c8feb;
+    align-self: flex-start;
+    padding: 1rem 2rem;
+    border-radius: 0 0.5rem 0 0.5rem;
+}
+.heroimg {
+    width: 50%;
+}
+.heroimg img {
+    width: 80%;
+    padding-top: 10%;
+    float: right;
+}
+
+
+/* TEAM MEMBERS */
+#team-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background-color: rgb(26,28,41);
+    margin: 5rem 0;
+}
+#team-section img:first-child {
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 2c8feb;
+}
+.members {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.member {
+    border: 4px dashed #2c8feb;
+    border-radius: 0 3rem 0 3rem;
+    padding: 1rem 0;
+    background: #2a3246;
+}
+.card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-top i:first-child {
+    background-color: #2c8feb;
+    padding: 1rem;
+    border-radius: 0 1rem 1rem 0;
+}
+.card-top i:last-child {
+    background-color: #2c8feb;
+    padding: 1rem;
+    border-radius: 1rem 0 0 1rem;
+}
+.card-bottom {
+    text-align: center;
+}
+.card-bottom h1 {
+    font-size: 1.3rem;
+}
+.card-bottom p {
+    font-size: .4rem;
+    color: lightgray;
+}
+.profile-pic {
+    border: 3px dashed #2c8feb;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    margin: 2.5rem;
+}
+
+h1,
+h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  color: rgb(130, 134, 152);
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(26, 28, 41);
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(34, 38, 53);
+  padding: 60px 0;
+  border-radius: 20px;
+  margin-top: 60px;
+}
+
+.about-div1,
+.about-div2 p {
+  width: 280px;
+}
+
+.about-content .about-div1,
+.about-div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content .line {
+  height: 200px;
+  width: 1px;
+  background-color: rgb(63, 68, 82);
+}
+
+.btn {
+  color: white;
+  padding: 10px 30px;
+  margin-top: 30px;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn1 {
+  background-color: rgb(27, 144, 255);
+}
+
+.btn2 {
+  background-color: rgb(0, 203, 130);
+}
+
+
+.resources {
+  background-color: rgb(26, 28, 41);
+  margin-top: 3rem;
+}
+
+.resources h1 {
+  text-align: center;
+  color: white;
+}
+
+.resources-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resources-div2 {
+  width: 400px;
+  height: 300px;
+  background-color: transparent;
+  background-image: url(./resources/resources-div2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.resources-div2 img {
+  width: 500px;
+  width: 50%;
+}
+
+.div1-inner-content,
+.div2-inner-content {
+  background-color: rgb(30, 35, 49);
+  margin-top: 60px;
+  padding-top: 60px;
+  border-radius: 10px;
+  height: 80px;
+}
+
+.div1-content h4,
+.div2-content h4 {
+  text-align: center;
+  color: white;
+}
+
+.resources-div1 {
+  display: flex;
+}
+
+.div1-content,
+.div2-content {
+  margin: 40px;
+  margin-left: 0;
+}
+
+.resources h3 {
+  text-align: left;
+  margin: 0;
+}
+
+.resources .container-content {
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+
+.container-content .btn {
+  align-self: center;
+}
+
+.container-content h3 {
+  text-align: left;
+}
+
+.browser-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.browser-img {
+  border-radius: 10px;
+  width: 375px;
+  height: 250px;
+  margin-top: 20px;
+}
+
+.browser-img-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 10px;
+}
+
+.img1 {
+  background-image: url("./resources/forest.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img2 {
+  background-image: url("./resources/ice-age.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 1rem;
+}
+.img2 h1 {
+  float: left;
+  text-align: justify;
+}
+.img2 button {
+  border: none;
+  color: black;
+  padding: .7rem 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: bolder;
+  font-size: 0.3rem;
+}
+
+.img3 {
+  background-image: url("./resources/truck.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img3 h1 {
+  float: left;
+  text-align: justify;
+  padding: 1rem;
+}
+
+.browser-img p,
+h3 {
+  text-align: start;
+  margin: 0;
+}
+
+.container-content img:first-child {
+    width: 50px;
+    border-radius: 50%;
+    align-self: center;
+    margin-bottom: 2rem;
+}
+.container-content h1:first-of-type {
+    font-size: 2.5rem;
+}
+
+.res-content-icon {
+  align-items: center;
+}
+
+
+
+#center-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head{
+  font-size: 40px;
+}
+
+.plans-box{
+  display: flex;
+  justify-content: space-around;
+}
+
+.plans-box h2{
+  display: flex;
+  justify-content: center;
+}
+
+.plans-details h1,h4{
+  margin: 0px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+.plans-details h3{
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.plans-details button{
+  padding: 15px 65px;
+  border-width: 3px;
+  border-top-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+  border-color: rgb(19,141,255);
+  color: white;
+  background-color: rgb(26,28,41);
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.plans-details button:hover{
+  background-color: rgb(19,141,255);
+  cursor: pointer;
+  box-shadow: rgba(39, 69, 77, 0.77) 0px 54px 55px, rgba(39, 69, 77, 0.77) 0px -12px 30px, rgba(39, 69, 77, 0.77) 0px 4px 6px, rgba(39, 69, 77, 0.77) 0px 12px 13px, rgba(39, 69, 77, 0.77) 0px -3px 5px;
+}
+
+.plans-border{
+  border: 5px solid rgb(26,28,41);
+  border-top: none;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.plans-details-head{
+  height: 300px;
+}
+
+.fa-check{
+  margin-right: 10px;
+  color: rgb(5,106,200);
+}
+
+.fa-cart-shopping{
+  color: rgb(5,106,200);
+}
+
+#cart-icon{
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  border: 3px solid rgb(5,106,200);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 13px;
+  box-shadow: rgba(39, 69, 77, 0.77) 0px 54px 55px, rgba(39, 69, 77, 0.77) 0px -12px 30px, rgba(39, 69, 77, 0.77) 0px 4px 6px, rgba(39, 69, 77, 0.77) 0px 12px 13px, rgba(39, 69, 77, 0.77) 0px -3px 5px;
+}
+
+#payment {
+  background-color: rgb(26,28,41);
+}
+
+/* --------footer-------- */
+
+.footer {
+  margin-top: 3rem;
+}
+.footer-content {  
+  width: 600px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content img {
+  align-self: center;
+  margin: 2rem 0;
+}
+
+.footer-content h4 {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.footer-content ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
