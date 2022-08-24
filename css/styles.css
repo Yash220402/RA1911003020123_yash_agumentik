@@ -467,7 +467,10 @@ h3 {
 .plans-details-head{
   height: 300px;
 }
-
+.plans-details-head h3 {
+  float: right;
+  font-size: 7px;
+}
 .fa-check{
   margin-right: 10px;
   color: rgb(5,106,200);
