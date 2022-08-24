@@ -471,6 +471,12 @@ h3 {
   float: right;
   font-size: 7px;
 }
+#price1,
+#price2,
+#price3,
+#price4{
+  font-weight: bolder;
+}
 .fa-check{
   margin-right: 10px;
   color: rgb(5,106,200);
